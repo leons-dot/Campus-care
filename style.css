@@ -1,0 +1,64 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+}
+
+header .hero {
+    background-color: #F5F8FC;
+    text-align: center;
+    padding: 64px 24px;
+}
+
+header .hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #5B7DB1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+main {
+    padding: 64px 24px;
+}
+
+.how-it-works {
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.signup-form {
+    margin-top: 40px;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #F5F8FC;
+}
